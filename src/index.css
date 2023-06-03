@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  background-color: #ff013c;
+}
+.slider {
+  width: 600px;
+  margin: 150px auto 0;
+  position: relative;
+}
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 130px;
+  left: -90px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #007a92;
+  transition: .1s;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 130px;
+  left: 570px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #007a92;
+  transition: .1s;
+}
+button:hover{
+  background-color: #fff;
+  color: #007a92;
+  border: 1px solid #007a92;
+}
+.slide {
+  box-shadow: 1px 1px 20px #fff ;
+  border-radius: 10px;
+}
+img{
+  width: 550px;
+  height: 310px;
+}
+span{
+  position: absolute;
+  top: -50px;
+  left: 215px;
+  font-size: 24px;
+  color: #fff;
+}
